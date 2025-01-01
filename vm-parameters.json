@@ -1,0 +1,30 @@
+{
+  "$schema": "https://schema.management.azure.com/schemas/2019-04-01/deploymentParameters.json#",
+  "contentVersion": "1.0.0.0",
+  "parameters": {
+    "location": {
+      "value": "East US"
+    },
+    "vmName": {
+      "value": "backupTestVM"
+    },
+    "adminUsername": {
+      "value": "localadmin"
+    },
+    "adminPassword": {
+      "value": "YourComplexPassword123!"
+    },
+    "nicName": {
+      "value": "backupTestVMNic"
+    },
+    "vnetName": {
+      "value": "backupTestVMVNet"
+    },
+    "subnetName": {
+      "value": "default"
+    },
+    "publicIpName": {
+      "value": "backupTestVMPublicIP"
+    }
+  }
+}
