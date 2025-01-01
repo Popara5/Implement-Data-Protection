@@ -1,0 +1,41 @@
+{
+    "apiVersion": "2024-10-01",
+    "id": "/subscriptions/c026ac07-ffac-4e08-b69c-9240e6d12833/resourceGroups/az104-rg-region1/providers/Microsoft.RecoveryServices/vaults/az104-rsv-region1",
+    "name": "az104-rsv-region1",
+    "type": "microsoft.recoveryservices/vaults",
+    "sku": {
+        "name": "RS0",
+        "tier": "Standard"
+    },
+    "location": "eastus",
+    "properties": {
+        "provisioningState": "Succeeded",
+        "privateEndpointStateForBackup": "None",
+        "privateEndpointStateForSiteRecovery": "None",
+        "backupStorageVersion": "Unassigned",
+        "securitySettings": {
+            "immutabilitySettings": {
+                "state": "Disabled"
+            },
+            "softDeleteSettings": {
+                "softDeleteRetentionPeriodInDays": 14,
+                "softDeleteState": "Enabled",
+                "enhancedSecurityState": "Enabled"
+            },
+            "multiUserAuthorization": "Disabled"
+        },
+        "redundancySettings": {
+            "standardTierStorageRedundancy": "GeoRedundant",
+            "crossRegionRestore": "Disabled"
+        },
+        "secureScore": "None",
+        "bcdrSecurityLevel": "Poor",
+        "publicNetworkAccess": "Enabled",
+        "restoreSettings": {
+            "crossSubscriptionRestoreSettings": {
+                "crossSubscriptionRestoreState": "Enabled"
+            }
+        }
+    },
+    "etag": "W/\"datetime'2025-01-01T15%3A06%3A10.6026353Z'\""
+}
